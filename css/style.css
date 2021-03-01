@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 30px;
+    font-family: century gothic;
+}
+/*nav*/
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+    font-weight: 800;
+}
+
+.nav input:nth-of-type(1) {
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    background-color: #f08e0f;
+}
+
+.nav input:nth-of-type(2) {
+    padding: 10px 30px; 
+    border-radius: 20px;
+    color: #f08e0f;
+    background-color: #fff;
+    background-color: none;
+    border: 1px solid #f08e0f;
+    margin-left: 20px;
+}
+
+.wrapper-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px;
+}
+
+.wrapper-container .wrapper-items h1 {
+    font-size: 50px;
+    font-stretch: narrower;
+}
+.wrapper-container .wrapper-items img{
+    height: 100%;
+    width: 120%;
+}
+.wrapper-container   input:nth-of-type(1) {
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    background-color: #f08e0f;
+}
+
+.wrapper-container input:nth-of-type(2) {
+    padding: 10px 20px; 
+    border-radius: 20px;
+    color: #f08e0f;
+    background-color: #fff;
+    background-color: none;
+    border: 1px solid #f08e0f;
+    margin-left: 10px;
+}
+
+.wrapper-container .wrapper-items  p:nth-of-type(1) { 
+    margin-top: 20px;
+}
+.wrapper-container .wrapper-items  input:nth-of-type(1) { 
+    margin-top: 40px;
+}
+
+.fonts i {
+    padding: 8px;
+    margin-top: 150px;
+    border: 1px solid lightblue;
+    border-radius: 80px;
+    background-color: rgba(173, 216, 230, 0.418);
+    border: none;
+    color: #333;
+}
+.fonts {
+    margin-top: -240px;
+    margin-left: 100px;
+
+}
+
+                                    @media only screen and (max-width: 1024px) {
+                                        body{
+                                            padding: 10px;
+                                        }
+                                        .nav {
+                                            display: block;
+                                            text-align: center;
+                                            padding-top: 20px;
+                                        }
+
+                                        ul li {
+                                            margin-right: 7px;
+                                            text-align: center;
+                                            font-size: 15px;
+                                        }
+                                        ul {
+                                            margin-top: 15px;
+                                        }
+                                        
+                                        .nav input {
+                                            margin-top: 10px;
+                                        }
+
+                                        .wrapper-container {
+                                            display: block;
+                                            padding: 10px;
+                                            margin-top: 20px;
+                                            justify-items: center;
+                                        }
+
+                                        .wrapper-container .wrapper-items h1 {
+                                            font-size: 32px;
+                                            
+                                        }
+                                                                       
+                                        .wrapper-container .wrapper-items {
+                                            margin: 0% auto;
+                                            text-align: center;
+                                        }
+                                        .wrapper-container .wrapper-items img {
+                                            justify-items: center;
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        .fonts {
+                                            margin-top: -150px;
+                                            text-align: center;
+                                            margin-left: -1px;                                    
+                                        }
+                                        
+                                    }
